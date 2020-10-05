@@ -52,31 +52,31 @@ body {
 }
 
 .rcb {
-  background-image: url(../images/rcb.png);
+  background-image: url(../assets/images/rcb.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .dc {
-  background-image: url(../images/dc.png);
+  background-image: url(../assets/images/dc.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .kkr {
-  background-image: url(../images/kkr.png);
+  background-image: url(../assets/images/kkr.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .mi {
-  background-image: url(../images/mi.png);
+  background-image: url(../assets/images/mi.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .srh {
-  background-image: url(../images/srh.png);
+  background-image: url(../assets/images/srh.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
