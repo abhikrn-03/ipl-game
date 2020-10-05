@@ -4,7 +4,7 @@ let userClickedPattern = [];
 let level = 0;
 let start = false;
 
-$(document).on("keypress", function(){
+$("#level-title").on("click", function(){
   if (!start){
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -12,6 +12,15 @@ $(document).on("keypress", function(){
     alert("Click on Boxes, or use keys [Q-W-E ; A-S-D]");
   }
 });
+
+// if (screen.width<550){
+//   $(document).on("click", function(){
+//     if (!start){
+//       $("#level-title").text("Level " + level);
+//       nextSequence();
+//       start = true;
+//   });
+// }
 
 function nextSequence(){
   userClickedPattern = [];
@@ -62,7 +71,7 @@ $(document).on("keypress", function(ev){
 });
 
 function playSound(name) {
-  let audio = new Audio(name + ".mp3");
+  let audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
 
