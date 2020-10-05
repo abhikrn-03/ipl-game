@@ -37,7 +37,7 @@ body {
   padding-bottom: 17%;
   width: 18%;
   border: 10px solid black;
-  border-radius: 20%;
+  border-radius: 20%
 }
 
 .game-over {
@@ -46,33 +46,39 @@ body {
 }
 
 .csk {
-  background-image: url(csk.png);
+  background-image: url(images/csk.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .rcb {
-  background-image: url(rcb.png);
+  background-image: url(images/rcb.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .dc {
-  background-image: url(dc.png);
+  background-image: url(images/dc.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .kkr {
-  background-image: url(kkr.png);
+  background-image: url(images/kkr.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .mi {
-  background-image: url(mi.png);
+  background-image: url(images/mi.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .srh {
-  background-image: url(srh.png);
+  background-image: url(images/srh.png);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .pressed {
@@ -159,6 +165,11 @@ h1 {
     font-size: 0.75rem;
 }
 
+.btn:hover {
+  filter: brightness(120%);
+  border: 10px dashed black;
+}
+
 @media screen and (max-width: 660px) {
   .footer-link {
     /* width: auto; */
@@ -178,5 +189,19 @@ h1 {
     margin-top: 0.5%;
     padding-top: 0.5%;
     height: 3.2%;
+  }
+  .btn {
+    border: 5px solid black;
+    width: 27%;
+    padding-bottom: 25%;
+  }
+  .kkr, .dc, .csk {
+    margin-left: 15%;
+  }
+  #level-title {
+    font-size: 1.5rem;
+  }
+  #colorDisplay {
+    font-size: 2rem;
   }
 }
