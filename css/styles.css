@@ -46,37 +46,37 @@ body {
 }
 
 .csk {
-  background-image: url(images/csk.png);
+  background-image: url(../images/csk.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .rcb {
-  background-image: url(images/rcb.png);
+  background-image: url(../images/rcb.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .dc {
-  background-image: url(images/dc.png);
+  background-image: url(../images/dc.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .kkr {
-  background-image: url(images/kkr.png);
+  background-image: url(../images/kkr.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .mi {
-  background-image: url(images/mi.png);
+  background-image: url(../images/mi.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .srh {
-  background-image: url(images/srh.png);
+  background-image: url(../images/srh.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -167,7 +167,6 @@ h1 {
 
 .btn:hover {
   filter: brightness(120%);
-  border: 10px dashed black;
 }
 
 @media screen and (max-width: 660px) {
