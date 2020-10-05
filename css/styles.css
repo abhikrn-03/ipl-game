@@ -198,9 +198,12 @@ h1 {
     margin-left: 15%;
   }
   #level-title {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   #colorDisplay {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 1.1rem;
   }
 }
